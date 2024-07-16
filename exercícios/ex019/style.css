@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*
+    Em HTML é id    = em CSS é # (só pode um elemento)
+    Em HTML é class = em CSS é . (pode vários elementos)
+
+    A class pode se repetir e pode ser colocada no mesmo local ex: <h1 class="basico avancado">
+    id sobrepoe a class
+*/
+
+body {
+    background-color: rgb(126, 197, 173);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+h2 {
+    color: rgb(59, 59, 121);
+}
+
+.basico {
+    color: green;
+}
+
+.intermediario {
+    color: yellow;
+}
+
+.avancado {
+    color: red;
+}
