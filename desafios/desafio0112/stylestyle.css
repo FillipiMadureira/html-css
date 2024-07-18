@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --fonte1: 'Passion One';
+    --fonte2: 'Sriracha';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+header {
+    font-family: var(--fonte1);
+    text-align: center;
+    background-color: black;
+    height: 288px;
+    color: white;
+    
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
+}
+
+#link1 {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#link1:hover {
+    text-decoration: underline;
+}
+/*--------------------------------------------------------------------------------------------------------------*/
+section {
+    font-family: var(--fonte2);
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 3.5vw;
+
+    background-color: white;
+}
+
+.img1 {
+    background: black url('imagens/background001.jpg') right center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+
+.img1 > p {
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+
+    background-color: rgba(0, 0, 0, 0.26);
+    color: white;
+}
+
+.img2 {
+    background: black url('imagens/background002.jpg') center center no-repeat fixed;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.img2 > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+
+.espaco {
+    padding-bottom: 2em;
+}
+
+footer {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+
+footer > p {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+footer #link2 {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+#link2:hover {
+    text-decoration: underline;
+}
